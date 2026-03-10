@@ -33,6 +33,5 @@ def find_even_index(arr):
         for index_N, x in enumerate(arr):
             if sum(arr[:index_N]) == sum(arr[index_N+1:]):
                 return index_N
-                break
         else:
             return -1
